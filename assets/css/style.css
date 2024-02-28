@@ -232,7 +232,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
@@ -279,7 +279,17 @@ h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+    height: 100hv;
   }
+}
+
+@media (min-width: 960px) {
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+}
 }
 
 @media (max-width: 768px) {
@@ -519,7 +529,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .contact .info {
